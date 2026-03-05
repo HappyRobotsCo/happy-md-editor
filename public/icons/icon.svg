@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a73e8"/>
+      <stop offset="100%" stop-color="#1557b0"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
+  <!-- Document/page shape (subtle, behind the text) -->
+  <rect x="30" y="22" width="68" height="84" rx="6" fill="rgba(255,255,255,0.12)"/>
+  <!-- Markdown down-arrow symbol -->
+  <path d="M44 48 L44 80 M44 80 L54 70 M44 80 L34 70" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Markdown up-arrow symbol -->
+  <path d="M70 80 L70 48 M70 48 L60 58 M70 48 L80 58" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Small pencil/edit indicator -->
+  <path d="M90 86 L98 78 L102 82 L94 90 Z" fill="rgba(255,255,255,0.7)"/>
+  <line x1="90" y1="86" x2="94" y2="90" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Happy MD Editor</title>
+  </head>
+  <body>
+    <main class="onboarding" role="main">
+      <header class="onboarding-header">
+        <h1>Welcome to Happy MD Editor</h1>
+        <p class="subtitle">View, edit, and save markdown files — right from your browser.</p>
+      </header>
+
+      <section class="onboarding-section" aria-labelledby="permission-heading">
+        <h2 id="permission-heading">Step 1: Enable File URL Access</h2>
+        <p>To open local <code>.md</code> files directly in the browser, you need to grant file URL access:</p>
+        <ol class="steps-list">
+          <li>
+            Copy this URL and paste it into your address bar:
+            <code class="url-display" id="extensions-url">chrome://extensions</code>
+            <button class="copy-btn" id="copy-url-btn" type="button" aria-label="Copy chrome://extensions URL">
+              Copy
+            </button>
+          </li>
+          <li>Find <strong>Happy MD Editor</strong> in the extensions list</li>
+          <li>Click <strong>Details</strong></li>
+          <li>Toggle <strong>"Allow access to file URLs"</strong> to ON</li>
+        </ol>
+        <p class="note">Note: <code>chrome://</code> URLs cannot be linked directly — you must copy and paste.</p>
+      </section>
+
+      <section class="onboarding-section" aria-labelledby="quickstart-heading">
+        <h2 id="quickstart-heading">Step 2: Open the Editor</h2>
+        <p>Click the <strong>Happy MD Editor</strong> icon in your browser toolbar to open a new editor tab.</p>
+        <p>You can also drag and drop any <code>.md</code> file onto the editor to start editing.</p>
+      </section>
+
+      <section class="onboarding-section" aria-labelledby="features-heading">
+        <h2 id="features-heading">Features</h2>
+        <ul class="features-list">
+          <li>
+            <strong>WYSIWYG Editing</strong>
+            <span>Rich text editing with live formatting — no markdown syntax needed</span>
+          </li>
+          <li>
+            <strong>Source Mode</strong>
+            <span>Edit raw markdown with syntax highlighting and a formatting toolbar</span>
+          </li>
+          <li>
+            <strong>Save to Disk</strong>
+            <span>Save changes directly back to local files using the File System Access API</span>
+          </li>
+          <li>
+            <strong>Themes</strong>
+            <span>Light and dark themes that follow your OS preference</span>
+          </li>
+          <li>
+            <strong>Keyboard Shortcuts</strong>
+            <span>Familiar shortcuts for bold, italic, headings, and more</span>
+          </li>
+        </ul>
+      </section>
+
+      <div class="onboarding-actions">
+        <button class="got-it-btn" id="got-it-btn" type="button">Got it — Open the Editor</button>
+      </div>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

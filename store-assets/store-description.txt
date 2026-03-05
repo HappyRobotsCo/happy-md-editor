@@ -1,0 +1,56 @@
+Happy MD Editor — The missing Chrome markdown editor.
+
+Open, edit, and save .md files with a clean WYSIWYG interface. No accounts, no cloud, no data collection. Everything stays on your device.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✦ WYSIWYG Editing
+Rich text editing with live formatting — bold, italic, headings, lists, tables, code blocks, and more. No markdown syntax needed.
+
+✦ Source Mode
+Edit raw markdown with full syntax highlighting and a formatting toolbar. Switch between WYSIWYG, Split, and Source views with one click.
+
+✦ Split View
+See your markdown source and rendered preview side by side with synchronized scrolling.
+
+✦ Save to Disk
+Open and save files directly to your local file system using the File System Access API. No copy-pasting, no downloads folder clutter.
+
+✦ Open .md Files Directly
+Navigate to any local .md file in Chrome and it opens in the editor automatically. Just enable "Allow access to file URLs" in extension settings.
+
+✦ Dark Mode
+Light and dark themes that follow your OS preference, or toggle manually.
+
+✦ Keyboard Shortcuts
+Cmd/Ctrl+B (bold), Cmd/Ctrl+I (italic), Cmd/Ctrl+S (save), Cmd/Ctrl+O (open), and many more.
+
+✦ Auto-Save & Crash Recovery
+Your work is automatically saved. If Chrome crashes, your document is recovered on next launch.
+
+✦ 100% Offline & Private
+No network requests. No analytics. No accounts. No data ever leaves your browser. Open source.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+KEYBOARD SHORTCUTS
+• Cmd/Ctrl+O — Open file
+• Cmd/Ctrl+S — Save
+• Cmd/Ctrl+Shift+S — Save As
+• Cmd/Ctrl+B — Bold
+• Cmd/Ctrl+I — Italic
+• Cmd/Ctrl+K — Insert/edit link
+• Cmd/Ctrl+Shift+H — Cycle heading levels
+• Cmd/Ctrl+\ — Cycle editor mode
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GETTING STARTED
+1. Install the extension
+2. Go to chrome://extensions → Happy MD Editor → Details → Enable "Allow access to file URLs"
+3. Click the extension icon to open the editor, or navigate to any local .md file
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Open source: https://github.com/HappyRobotsCo/happy-md-editor
+Privacy policy: https://github.com/HappyRobotsCo/happy-md-editor/blob/main/PRIVACY_POLICY.md

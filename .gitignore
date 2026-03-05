@@ -1,0 +1,33 @@
+node_modules/
+dist/
+*.DS_Store
+
+# Test artifacts
+test-results/
+playwright-report/
+
+# Build artifacts
+*.zip
+
+# Editor/OS
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# POC and backups
+poc/
+poc-backup/
+
+# Ralph workflow (dev-only, not shipped)
+PROMPT_build.md
+PROMPT_plan.md
+AGENTS.md
+IMPLEMENTATION_PLAN.md
+loop.sh
+summaries/

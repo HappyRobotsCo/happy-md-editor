@@ -1,0 +1,38 @@
+:root,
+[data-theme='light'] {
+  color-scheme: light;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --bg-canvas: #f0f1f3;
+  --bg-code-inline: #f1f3f5;
+  --bg-code-block: #f8f9fa;
+  --text-primary: #1a1a1a;
+  --text-secondary: #5f6368;
+  --text-tertiary: #9aa0a6;
+  --border-color: #dadce0;
+  --border-subtle: #e8eaed;
+  --accent-color: #1a73e8;
+  --accent-hover: #1557b0;
+
+  /* Prism syntax highlighting tokens */
+  --token-comment: #6a737d;
+  --token-prolog: #6a737d;
+  --token-punctuation: #24292e;
+  --token-property: #005cc5;
+  --token-tag: #22863a;
+  --token-boolean: #005cc5;
+  --token-number: #005cc5;
+  --token-constant: #005cc5;
+  --token-symbol: #e36209;
+  --token-selector: #22863a;
+  --token-attr-name: #6f42c1;
+  --token-string: #032f62;
+  --token-char: #032f62;
+  --token-builtin: #e36209;
+  --token-operator: #d73a49;
+  --token-keyword: #d73a49;
+  --token-function: #6f42c1;
+  --token-regex: #032f62;
+  --token-variable: #e36209;
+  --token-class-name: #6f42c1;
+}
